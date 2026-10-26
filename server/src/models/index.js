@@ -1,0 +1,20 @@
+'use strict';
+module.exports = {
+  User: require('./User'),
+  Employee: require('./Employee'),
+  Department: require('./Department'),
+  Designation: require('./Designation'),
+  LeaveType: require('./LeaveType'),
+  Holiday: require('./Holiday'),
+  Settings: require('./Settings'),
+  Counter: require('./Counter'),
+  Attendance: require('./Attendance'),
+  AttendanceCorrection: require('./AttendanceCorrection'),
+  LeaveRequest: require('./LeaveRequest'),
+  PayrollRun: require('./PayrollRun'),
+  Payslip: require('./Payslip'),
+  Announcement: require('./Announcement'),
+  Notification: require('./Notification'),
+  AuditLog: require('./AuditLog'),
+  AiLog: require('./AiLog'),
+};
